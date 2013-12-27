@@ -10,8 +10,10 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'unicorn'
 gem 'devise'
+gem "haml-rails"
 
-gem 'bootstrap-sass'
+
+gem 'bootstrap-sass-rails'
 
 
 group :doc do

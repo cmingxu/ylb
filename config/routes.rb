@@ -1,4 +1,6 @@
 Ylb::Application.routes.draw do
+  resources :accounts
+
   resources :players
 
   devise_for :moderators

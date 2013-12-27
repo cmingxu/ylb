@@ -8,17 +8,24 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
+gem 'unicorn'
+gem 'devise'
+
+gem 'bootstrap-sass'
+
 
 group :doc do
   gem 'sdoc', require: false
 end
 
-gem 'unicorn'
 group :development do
   gem 'capistrano'
 end
 
 group :test do
+  gem 'rspec-rails', '~> 3.0.0.beta'
+  gem 'factory_girl'
+  gem 'database_cleaner'
 end
 gem 'awesome_print'
 
